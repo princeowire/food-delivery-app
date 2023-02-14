@@ -144,6 +144,11 @@ nav {
     padding: 02%;
     display: flex;
     gap: 02%;
+    background-color: ;
+}
+
+#defaultOpen {
+    background-color: #E52E0C;
 }
 
 .one1 {
@@ -170,12 +175,12 @@ nav {
 
 .one1a {
     height: 35%;
-    width: 94%;
+    width: 90%;
     border-radius: 25px;
     background-color: #fff;
     position: absolute;
     bottom: 0%;
-    padding: 03%;
+    padding: 05%;
     padding-bottom: 0%;
 }
 
@@ -190,9 +195,13 @@ nav {
 }
 
 .one1b button {
-    width: 40px;
+    width: 19%;
     height: 15px;
+    padding: 01%;
     cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .about-us {
