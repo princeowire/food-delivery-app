@@ -1,0 +1,297 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food-delivery-app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./food-delivery-app.css">
+    <script>
+        window.onload(loader)
+
+function loader(){
+    document.getElementById("page").style.removeProperty("display");
+}
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "flex";
+          evt.currentTarget.className += " active";
+        }
+
+        
+        </script>
+</head>
+<body>
+    <header>
+        <img class="frame" src="./imgages/Frame.png" alt="">
+        <nav class="nav-bar">
+            <div class="nav-1">
+                <img src="./imgages/MOTO.png" alt="">
+            </div>
+            <div class="nav-2">
+            <p>HOME</p>
+            <p>ABOUT</p>
+            <p>BLOG</p>
+            <p>SEVICES</p>
+            <p>CONTACT US</p>
+            <div class="nav-3">
+            <p>LOGIN <img src="./imgages/Vector.svg" alt=""></p>
+            </div>
+            </div>
+        </nav>
+    </header>
+<body>
+        <section class="intro">
+            <div class="intro-1">
+            <img src="./imgages/byc.svg" alt="">
+           </div>
+           <div class="intro-2">
+            <img src="./imgages/Food Delivery.svg " alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+        </div>
+        <img frame-01 src="./imgages/Frame-01.svg" alt="">
+        </section>
+        <section class="sec-1">
+            <h1 class="s1-h1"> <b> RESTAURANTS</b> </h1>
+            <div class="sec-1b">
+                <div class="search"><input class="s1b-input" type="text" placeholder="search by name"><button><img src="./imgages/search 2.svg" alt=""></button></div>
+            <img src="./imgages/utensils.svg" alt="">
+            </div>
+        </section>
+        <sectoin class="sec-2">
+        <div class="tab">
+            <button class="tablinks" id="defaultOpen" class="active" onclick="openCity(event, 'all')" >all</button>
+            <button class="tablinks" onclick="openCity(event, 'pizza')"> Pizza </button>
+            <button class="tablinks" onclick="openCity(event, 'buger')">Bugers</button>
+            <button class="tablinks" onclick="openCity(event, 'shushi')">Shushi</button>
+            <button class="tablinks" onclick="openCity(event, 'breakfast')">Breakfast</button>
+        </div>
+
+        <div class="tabcontent" id="all" id="defaultOpen">
+
+        <div class="one1">
+            <img src="imgages/shit/001.png" alt="">
+            <div class="one1a">
+                <div class="bon">
+                <p> Bon Frork Pubhouse </p> <img src="./imgages/hrt.svg" alt=""> </div>
+                <p class="ss-p">15-25min. £ 14 min sum</p>
+                <div class="one1b">
+                    <button>fgry</button> 
+                    <button>fihh</button>
+                    <button>urhu</button>
+                    <button>yyiu</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="one1">
+            <img src="./imgages/shit/002.png" alt="">
+            <div class="one1a">
+                <div class="bon">
+                <p> Bon Frork Pubhouse </p> <img src="./imgages/hrt.svg" alt=""> </div>
+                <p class="ss-p">15-25min. £ 14 min sum</p>
+                <div class="one1b">
+                    <button>American</button> 
+                    <button>Asian</button>
+                    <button>European</button>
+                    <button>Italian</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="one1">
+            <img src="./imgages/shit/003.png" alt="">
+            <div class="one1a">
+                <div class="bon">
+                <p> Bon Frork Pubhouse </p> <img src="./imgages/hrt.svg" alt=""> </div>
+                <p class="ss-p">15-25min. £ 14 min sum</p>
+                <div class="one1b">       
+                    <button>American</button> 
+                    <button>Asian</button>
+                    <button>European</button>
+                    <button>Italian</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="one1">
+            <img src="./imgages/shit/004.png" alt="">
+            <div class="one1a">
+                <div class="bon">
+                <p> Bon Frork Pubhouse  </p> <img src="./imgages/hrt.svg" alt=""> </div>
+                <p class="ss-p">15-25min. £ 14 min sum</p>
+                <div class="one1b">
+                    <button>American</button> 
+                    <button>Asian</button>
+                    <button>European</button>
+                    <button>Italian</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="one1">
+            <img src="./imgages/shit/005.png" alt="">
+            <div class="one1a">
+                <div class="bon">
+                <p> Bon Frork Pubhouse </p> <img src="./imgages/hrt.svg" alt=""> </div> 
+                <p class="ss-p">15-25min. £ 14 min sum</p>
+                <div class="one1b">
+                    <button>American</button> 
+                    <button>Asian</button>
+                    <button>European</button>
+                    <button>Italian</button>
+                </div>
+            </div>
+            </div>
+            
+        <div class="one1">
+            <img src="./imgages/shit/006.png" alt="">
+            <div class="one1a">
+                <div class="bon">
+                <p> Bon Frork Pubhouse </p> <img src="./imgages/hrt.svg" alt=""> </div>
+                <p class="ss-p">15-25min. £ 14 min sum</p>
+                <div class="one1b">
+                    <button>American</button> 
+                    <button>Asian</button>
+                    <button>European</button>
+                    <button>Italian</button>
+                </div>
+            </div>
+        </div>
+        
+        
+        </div> 
+        <!-- <div class="tabcontent" id="pizza"> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At sed totam consequatur qui ad. Reiciendis, numquam obcaecati eius voluptate tenetur odit incidunt eligendi illo debitis molestiae hic rerum facere autem.</p>
+        </div>
+        <div class="tabcontent" id="buger"> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In tenetur sunt facere recusandae reiciendis cupiditate magnam sequi omnis sapiente ex reprehenderit dolore minus corrupti veniam incidunt, culpa commodi illum adipisci?</p>
+        </div>
+        <div class="tabcontent" id="shushi"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus mollitia voluptatum animi cupiditate iusto? Explicabo blanditiis maxime </p></div>
+        <div class="tabcontent" id="breakfast">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eaque dolorum repudiandae magni nesciunt, aperiam minus aliquam! Laboriosam dicta maiores cumque non id, aspernatur architecto quas libero alias saepe odio.</p>
+        </div> -->
+</sectoin>
+<section class="about-us">
+    <img src="./imgages/Rectangle 1.svg" class="bg-right" alt="">
+    <img src="./imgages/pngwing 1.png" alt="" class="wing">
+    <div class="text">
+        <h2>ABOUT US</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ab optio ad accusamus dolorem tempora vel earum nisi incidunt hic.</p> 
+        <button class="read-more">Read More</button></div>
+        <img src="./imgages/Rectangle 2.svg" alt="not" class="bg-left">
+        <img src="./imgages/Pizza-Free-PNG-Image 1.png" alt="" class="end-pizza">
+    </section> 
+    <section class="cafe">
+        <div class="top-sec-cafe">
+            <h2>
+                Cafe&Restaurants
+            </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, quis.</p>
+        </div>
+        
+        <div class="bottom-sec-cafe">
+            <div class="cafe-div">
+                <img src="./imgages/leo/pngwing 2.svg" alt="">
+                <h3 class="ss-h3">BugerHouse</h3>
+                <p class="smid"> monday - saturday</p>
+                <p class="smi0d"> 9:00 - 18:00</p>
+                <p class="smid-p">Lorem ipsum dolor sit and amet, consectetur aiscing elit, a sed do and eiusmod tempor incidunt ut labore           dolore magna aliqua.</p>
+            </div>
+            
+            <div class="cafe-div">
+                <img src="./imgages/leo/pngwing 3.svg" alt="">
+                <h3 class="ss-h3">Hoppy Orill Cofo</h3>
+                <p class="smid"> monday - saturday</p>
+                <p class="smi0d"> 9:00 - 18:00</p>
+                <p class="smid-p">Lorem ipsum dolor sit and amet, consectetur aiscing elit, a sed do and eiusmod tempor incidunt ut labore           dolore magna aliqua.</p>
+            </div>
+            
+            <div class="cafe-div">
+                <img src="./imgages/leo/pngwing 4.svg" alt="">
+                <h3 class="ss-h3">Sushitcria</h3>
+                <p class="smid"> monday - saturday</p>
+                <p class="smi0d"> 9:00 - 18:00</p>
+                <p class="smid-p">Lorem ipsum dolor sit and amet, consectetur aiscing elit, a sed do and eiusmod tempor incidunt ut labore           dolore magna aliqua.</p>
+            </div>
+            </div>
+            <div class="rehab">
+        <div class="cafe-div">
+            <img src="./imgages/leo/pngwing 5.svg" alt="">
+            <h3 class="ss-h3">Restaurant Moto</h3>
+            <p class="smid"> monday - saturday</p>
+            <p class="smi0d"> 9:00 - 18:00</p>
+            <p class="smid-p">Lorem ipsum dolor sit and amet, consectetur aiscing elit, a sed do and eiusmod tempor incidunt ut labore           dolore magna aliqua.</p>
+        </div>
+
+        <div class="cafe-div">
+            <img src="./imgages/leo/pngwing 6.svg" alt="">
+            <h3 class="ss-h3">Ribs and Boor</h3>
+            <p class="smid"> monday - saturday</p>
+            <p class="smi0d"> 9:00 - 18:00</p>
+            <p class="smid-p">Lorem ipsum dolor sit and amet, consectetur aiscing elit, a sed do and eiusmod tempor incidunt ut labore           dolore magna aliqua.</p>
+        </div>
+
+        <div class="cafe-div">
+            <img src="./imgages/leo/Pizza-Free-PNG-Image 2.svg" alt="">
+            <h3 class="ss-h3">Hot Pizza</h3>
+            <p class="smid"> monday - saturday</p>
+            <p class="smi0d"> 9:00 - 18:00</p>
+            <p class="smid-p">Lorem ipsum dolor sit and amet, consectetur aiscing elit, a sed do and eiusmod tempor incidunt ut labore           dolore magna aliqua.</p>
+        </div>
+    </div>
+    <button class="see-more">see more</button>
+    </div>
+</section>
+
+<section class="testimonial">
+    <h3 class="test-h3">TESTIMONIAL</h3>
+    <p class="our-client">WHY OUR CLIENTS CHOOSE US</p>
+    <div class="damsel" > 
+        <img src="./imgages/finegal.svg" alt="" class="damsel-img">
+        <p class="big-p">Michael Dam</p>
+        <p>Lorem ipsum dolor sit and amet, consectetur aiscing elit, a sed do and eiusmod tempor incidunt ut labore           dolore magna aliqua.</p>
+    </div>
+    <div class="yeye">
+    <button class="btn-img"><img src="./imgages/button.svg" alt=""></button>  
+    </div>
+</section>
+<footer>
+    <div class="ft1">
+        <h3>ABOUT</h3>
+        <p>simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's staard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+    </div>
+    <div class="ft2">
+        <h3>LINKS</h3>
+        <p>Home</p>
+        <p>Blog</p>
+        <p>Surveces</p>
+        <p>Contact</p>
+    </div>
+    <div class="ft3">
+        <h3>FOLLOWS US</h3>
+        <p><img src="./imgages/sub/Vector.svg" alt=""> Facebook</p>
+        <p><img src="./imgages/sub/Vector-1.svg" alt=""> Twitter</p>
+        <p><img src="./imgages/sub/Vector-2.svg" alt=""> Linkedin</p>
+        <p><img src="./imgages/sub/Vector-3.svg" alt=""> Whatsapp</p>
+        <p><img src="./imgages/sub/Vector-4.svg" alt=""> skype</p>
+    </div>
+    <div class="ft4">
+        <h3>NEWSLETTER</h3>
+        <input type="text" placeholder="E-mail">
+        <button class="send">
+            send
+        </button>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,426 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 50%;
+    padding: 02%;
+}
+
+.frame {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+}
+
+.nav-1 {
+    align-items: center;
+}
+
+.intro {
+    position: relative;
+    display: flex;
+    gap: 20%;
+}
+
+.intro-1 {
+    padding: 02%;
+}
+
+.intro-1 img {
+    width: 200%;
+}
+
+.intro-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.intro-2 img {
+    width: 180%;
+}
+
+.nav-2 {
+    float: right;
+    display: flex;
+    gap: 03%;
+    cursor: pointer;
+    max-width: 400%;
+    min-width: 40%;
+}
+
+.frame-01 {
+    position: absolute;
+    right: -10%;
+    z-index: -1;
+}
+
+.sec-1 {
+    display: flex;
+    gap: 33%;
+    padding: 02%;
+    padding-left: 04%;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-1b {
+    display: flex;
+    gap: 05%;
+}
+
+.search img {
+    width: 50%;
+    border: none;
+}
+
+.search button {
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    width: 50px;
+}
+
+.s1-h1 {
+    font-size: 230%;
+}
+
+ .search {
+    border-radius: 50px;
+    background-color: white;
+    width: 400px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px gray;
+    display: flex;
+    gap: 30%;
+}
+
+.tab {
+    overflow: hidden;
+    padding: 03%;
+}
+
+.tab button.active {
+    background-color: #E52E0C;
+}
+
+.tabcontent {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab button {
+    padding: 0.4%;
+    background-color: inherit;
+    width: 05%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.s1b-input {
+    border: none;
+    outline: none;
+    margin: 02%;
+}
+
+.tab button:hover {
+    background-color: #e7553b;
+}
+
+#all {
+    padding: 02%;
+    display: flex;
+    gap: 02%;
+}
+
+.one1 {
+    position: relative;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 25px;
+    margin: 01%;
+}
+
+.one1 button {
+    color: #fff;
+    background-color: #2ECC8F;
+    border: none;
+    font-size: 10px;
+    border-radius: 10px;
+}
+
+.one1 img {
+    border-radius: 25px;
+}
+
+.one1a {
+    height: 35%;
+    width: 94%;
+    border-radius: 25px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0%;
+    padding: 03%;
+    padding-bottom: 0%;
+}
+
+.bon {
+    display: flex;
+    gap: 05%;
+}
+
+.ss-p { 
+    font-size: smaller;
+    color: black;
+}
+
+.one1b button {
+    width: 40px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.about-us {
+    position: relative;
+    display: flex;
+}
+
+.text {
+   display: flex;
+   flex-direction: column;
+   color: #ffff;
+   position: absolute;
+   bottom: 30%;
+   left: 50%;
+}
+
+.text p {
+    font-size: larger;
+}
+
+.text button {
+    width: 25%;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.text p {
+    max-width: 350px;
+    margin: 05%;
+    margin-left: 0%;
+}
+
+.bg-left {
+   /* position: absolute; */
+   z-index: -1;
+   width: 60%;
+   right: 0%;
+}
+
+
+.bg-right {
+    /* position: absolute; */
+    z-index: -1;
+    width: 10%;
+    left: 0%;
+}
+
+.end-pizza {
+    position: absolute;
+    right: 0%;
+    bottom: 5%;
+    width: 25%;
+}
+
+
+.wing {
+    width: 30%;
+    object-fit: cover;
+}
+
+.cafe {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.top-sec-cafe {
+    text-align: center;
+    padding: 01%;
+}
+
+.ss-h3 {
+    font-size: 16px;
+    color: #000000;
+}
+
+.smid-p {
+    font-size: small;
+    text-align: center;
+    color: #1F1E1E;
+}
+
+.snid {
+    font-size: 10px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.smi0d {
+    font-size: 12px;
+}
+
+.cafe-div {
+    width: 12%;
+    height: 60%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 01%;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    margin: 01%;
+}
+
+.cafe-div:hover {
+    box-shadow: 5px 1px 30px rgba(160, 66, 66, 0.42);
+    border: none;
+}
+
+.bottom-sec-cafe {
+    align-items: center;
+    justify-content: center;
+    gap: 05%;
+    display: flex;
+}
+
+.rehab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 05%;
+}
+
+.see-more {
+    background-color: #E52E0C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 01%;
+    width: 10%;
+    font-size: large;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.test-h3 {
+    color: #E22A2A;
+    text-align: center;
+    margin: 0.5%;
+}
+
+.our-client {
+    text-align: center;
+    font-size: 30px;
+}
+
+.damsel {
+    margin-top: 03%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #FFFF;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.32);
+}
+
+.damsel-img {
+    position: absolute;
+    top: -18%;
+}
+
+.damsel p {
+    max-width: 350px;
+    text-align: center;
+    padding: 02%;
+}
+
+.big-p {
+    font-size: 30px;
+    margin: 03%;
+}
+
+.btn-img {
+    border: none;
+    align-items: center;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.yeye {
+    text-align: center;
+    padding: 01%;
+}
+
+footer {
+    background-color: #363636;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 05%;
+    padding: 02%;
+}
+
+input {
+    outline: none;
+}
+
+footer p {
+    color: #989898; 
+}
+
+.ft1 {
+    max-width: 300px;
+}
+
+.ft4 {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.ft4 button {
+    width: 50%;
+    background-color: #FC3535;
+    padding: 03%;
+    border: none;
+    border-radius: 10px;
+}
